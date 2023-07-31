@@ -1,0 +1,55 @@
+body {
+    background-color: lightgray;
+    margin: 0;
+    padding: 0 30px;
+}
+
+
+.links_work {
+    display: flex;
+}
+
+.links_work>li {
+    list-style-type: none;
+    margin-right: 30px;
+    margin-bottom: -10px;
+}
+
+.links_li {
+    color: #726C6C;
+}
+
+.all_block_works {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.df{
+    display: flex;
+}
+
+.block_one_works {
+    display: inline-block;
+    background-color: white;
+    margin-left: 20px;
+    border-radius: 6px;
+    padding: 10px 15px;
+    margin-top: 30px;
+}
+
+.block_one_works>p {
+    margin: 0;
+    padding: 5px 0;
+}
+
+.gray_picture {
+    text-align: center;
+    width: 420px;
+    height: 260px;
+    background: #D1D1D1;
+    border-radius: 6px;
+}
+
