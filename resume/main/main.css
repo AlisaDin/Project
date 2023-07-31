@@ -53,15 +53,23 @@
     font-size: 24px;
     color: black;
 }
+.skill{
+    margin-top: 50px;
+}
 .kub{
     width: 100%;
     height: 400px;
-    border:  1px solid red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 ._kub{
     width: 40%;
     height: 300px;
-    border: 2px solid blue;
+}
+.skill_line{
+    height: 120px;
+    position: relative;
 }
 .liner{
     width: 460px;
@@ -69,7 +77,15 @@
     background-color: white;
 }
 .liner_color{
+    position: relative;
     width: 260px;
     height: 5px;
     background-color: black;
+}
+.skill_line>h3{
+    position: absolute;
+    right: 0;
+}
+.skill_line>h2{
+    font-size: 18px;
 }
